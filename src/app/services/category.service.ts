@@ -15,4 +15,6 @@ export class CategoryService {
   getCategories():Observable<ListResponseModel<Category>>{
     return this.httpClient.get<ListResponseModel<Category>>(this.apiUrl);
    }
+
+  
 }
